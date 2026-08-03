@@ -36,15 +36,6 @@ static class Server
 
 internal class Program
 {
-    static async void TestServer()
-    {
-        var rTasks = new Task[10];
-        for (int i = 0; i < rTasks.Length; i++)
-            rTasks[i] = Task.Run(() => Server.GetCount());
-        await Task.WhenAll(rTasks);
-
-        return;
-    }
     static void Main()
     {
         
