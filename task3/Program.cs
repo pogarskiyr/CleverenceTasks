@@ -6,6 +6,9 @@
   Имя файла с проблемными строками "problems.txt" - зашито в коде
 */
 
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Globalization;
 
 internal class Program
